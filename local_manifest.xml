@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remove CM-specific repositories -->
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  
+  <!-- Temp. Remove Screencast (not working) -->
+  <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
+
+  <!-- Add TWRP repositories -->
+  <project path="bootable/recovery-twrp" name="vaniraosp/bootable_recovery_twrp" groups="pdk" remote="github" revision="m6" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
+  
+  <!-- Add GearLabs repositories -->
+  <project path="device/cyanogen/mt6755-common" name="GearLabs/android_device_cyanogen_mt6755-common" />
+  <project path="device/ulefone/k11ta_a" name="GearLabs/android_device_ulefone_k11ta_a" />
+  <project path="kernel/ulefone/k11ta_a" name="GearLabs/android_kernel_ulefone_k11ta_a" />
+  <project path="proprietary/vendor/ulefone" name="GearLabs/proprietary_vendor_ulefone" />
+
+</manifest>
