@@ -4,7 +4,7 @@ GearLabs
 Getting Started
 ---------------
 
-In order to compile correctly a CM13 build for the Ulefone Future (k11ta_a):
+In order to compile correctly a CM13 build for the Ulefone Future (k11ta_a) or Bluboo Maya Max (pri6750_66t_m):
 
  * Initialize the cm-13.0 repo as specified [here](https://github.com/CyanogenMod/android/tree/cm-13.0)
  * Copy the GearLabs Manifest (local_manifest.xml) to the .repo folder
@@ -13,3 +13,9 @@ In order to compile correctly a CM13 build for the Ulefone Future (k11ta_a):
 
     ./device/cyanogen/mt6755-common/patches/install.sh
  * Execute all commands required to compile the ROM as specified [here](https://github.com/CyanogenMod/android/tree/cm-13.0)
+
+Only for Bluboo Maya Max, before executing the building commands:
+
+ * Apply all extra patches by running the dedicated installation script
+
+    ./device/bluboo/pri6750_66t_m/patches/install.sh

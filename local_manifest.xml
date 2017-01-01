@@ -14,8 +14,12 @@
   
   <!-- Add GearLabs repositories -->
   <project path="device/cyanogen/mt6755-common" name="GearLabs/android_device_cyanogen_mt6755-common" />
+  
   <project path="device/ulefone/k11ta_a" name="GearLabs/android_device_ulefone_k11ta_a" />
   <project path="kernel/ulefone/k11ta_a" name="GearLabs/android_kernel_ulefone_k11ta_a" />
   <project path="vendor/ulefone" name="GearLabs/proprietary_vendor_ulefone" />
+
+  <project path="device/bluboo/pri6750_66t_m" name="GearLabs/android_device_bluboo_pri6750_66t_m" />
+  <project path="vendor/bluboo" name="GearLabs/proprietary_vendor_bluboo" />
 
 </manifest>
