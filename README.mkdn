@@ -4,18 +4,12 @@ GearLabs
 Getting Started
 ---------------
 
-In order to compile correctly a CM13 build for the Ulefone Future (k11ta_a) or Bluboo Maya Max (pri6750_66t_m):
+In order to compile correctly a LineageOS 14.1 build for the LEAGOO M8 Pro (f5c62w):
 
- * Initialize the cm-13.0 repo as specified [here](https://github.com/CyanogenMod/android/tree/cm-13.0)
+ * Initialize the cm-14.1 repo as specified [here](https://wiki.lineageos.org/devices/bacon/build) for another device
  * Copy the GearLabs Manifest (local_manifest.xml) to the .repo folder
  * Execute the usual "repo sync" command to download/update everything
  * Apply all patches by running the installation script
 
-    ./device/cyanogen/mt6755-common/patches/install.sh
- * Execute all commands required to compile the ROM as specified [here](https://github.com/CyanogenMod/android/tree/cm-13.0)
-
-Only for Bluboo Maya Max, before executing the building commands:
-
- * Apply all extra patches by running the dedicated installation script
-
-    ./device/bluboo/pri6750_66t_m/patches/install.sh
+    ./device/mediatek/mt6737-common/patches/install.sh
+ * Execute all commands required to compile the ROM as specified [here](https://wiki.lineageos.org/devices/bacon/build) for another device

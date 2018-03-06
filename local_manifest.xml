@@ -2,24 +2,12 @@
 <manifest>
 
   <!-- Remove CM-specific repositories -->
-  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-  
-  <!-- Temp. Remove Screencast (not working) -->
-  <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
 
-  <!-- Add TWRP repositories -->
-  <project path="bootable/recovery-twrp" name="vaniraosp/bootable_recovery_twrp" groups="pdk" remote="github" revision="m6" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
-  
   <!-- Add GearLabs repositories -->
-  <project path="device/cyanogen/mt6755-common" name="GearLabs/android_device_cyanogen_mt6755-common" />
+  <project path="device/mediatek/mt6737-common" name="GearLabs/android_device_mediatek_mt6737-common" />
   
-  <project path="device/ulefone/k11ta_a" name="GearLabs/android_device_ulefone_k11ta_a" />
-  <project path="kernel/ulefone/k11ta_a" name="GearLabs/android_kernel_ulefone_k11ta_a" />
-  <project path="vendor/ulefone" name="GearLabs/proprietary_vendor_ulefone" />
-
-  <project path="device/bluboo/pri6750_66t_m" name="GearLabs/android_device_bluboo_pri6750_66t_m" />
-  <project path="vendor/bluboo" name="GearLabs/proprietary_vendor_bluboo" />
+  <project path="device/leagoo/f5c62w" name="GearLabs/android_device_leagoo_f5c62w" />
+  <project path="vendor/leagoo" name="GearLabs/proprietary_vendor_leagoo" />
 
 </manifest>
